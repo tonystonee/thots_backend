@@ -60,7 +60,8 @@ app.get('/login', function(req, res) {
       code_challange:
       scope,
       redirect_uri,
-      state: state
+      state: state,
+      show_dialog: true,
     }));
 });
 
